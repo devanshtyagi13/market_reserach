@@ -6,8 +6,8 @@ app = Flask(__name__)
  
 def get_db_connection():
     # Update these values with your actual database credentials
-    # dsn = 'dbinsone.cj2624y4ut6p.eu-north-1.rds.amazonaws.com:1521/ORCL'
-    # conn = oracledb.connect(user="admin", password="ordbuser", dsn=dsn)
+    # dsn = 'localhost:1521/xepdb1'
+    # conn = oracledb.connect(user="", password="ordbuser", dsn=dsn)
 
     # connect to rds instance
     dsn = "localhost:1521/xepdb1'"
